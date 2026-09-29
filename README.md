@@ -1,2 +1,3 @@
 # SafeTrack-Analytics
 ETL pipeline and SQL analysis on GPS data from SafeTrack (ESP32 + NEO-7M): data cleaning, anomaly detection, geofence analytics using Python, pandas and SQLite.
+SafeTrack Analytics is a data pipeline and analysis layer for SafeTrack, my ESP32 + NEO-7M real-time safety tracker. It ingests raw GPS readings, cleans and validates them, computes distance and speed, flags impossible GPS jumps, loads the results into SQLite, and answers questions with SQL (daily distance, geofence exits, SOS events, movement type). Data note: simulated GPS data mimicking the device's output (7 days, 2 devices).
